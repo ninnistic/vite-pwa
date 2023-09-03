@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:0.4.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:18.2.0"],\
+            ["react-icons", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:4.10.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:4.4.9"],\
             ["vite-plugin-pwa", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:0.16.4"]\
@@ -6433,6 +6434,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.10.1", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.10.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:4.10.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-7d252cc078/0/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:4.10.1"],\
+            ["@types/react", "npm:18.2.21"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-refresh", [\
         ["npm:0.14.0", {\
           "packageLocation": "./.yarn/cache/react-refresh-npm-0.14.0-78ef5eeb73-dc69fa8c99.zip/node_modules/react-refresh/",\
@@ -7647,6 +7670,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:0.4.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:18.2.0"],\
+            ["react-icons", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:4.10.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:4.4.9"],\
             ["vite-plugin-pwa", "virtual:0b8e12c9c648614b368b7ed5e32e6a00362b7cd4934de0f3c020558bb326acfe951268116e6c51e5c5890be5dd289187d9a1a9ca4fa3f25d4967ec0e1dc9cd0b#npm:0.16.4"]\

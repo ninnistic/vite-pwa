@@ -1,31 +1,42 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { useEffect } from "react";
+import { PiBellDuotone, PiGearDuotone } from "react-icons/pi";
+import { LiaSearchSolid } from "react-icons/lia";
 
 function App() {
-  const [count, setCount] = useState(0);
+  function handleResize() {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  }
+
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank"></a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+    <div className="viewport">
+      <nav>
+        <button title="Notifications">
+          <PiBellDuotone />
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+        <div className="spacer"></div>
+        <button title="Search">
+          <LiaSearchSolid />
+        </button>
+        <button title="Settings">
+          <PiGearDuotone />
+        </button>
+      </nav>
+      <img
+        src="https://plus.unsplash.com/premium_photo-1669920081527-1ee9e31f5129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1600&q=60"
+        alt=""
+        width="100%"
+      />
+    </div>
   );
 }
 
